@@ -36,11 +36,11 @@ function find2020(expenses) {
 }
 
 
-let result = find2020FromThreeNum(expenses, 2020);
+let result = findSumFromThreeNum(expenses, 2020);
 console.log(result);
 let multRes = multipleResult(result);
 console.log(multRes);
-function find2020FromThreeNum(expenses, toFind) {
+function findSumFromThreeNum(expenses, toFind) {
     let end = expenses.length - 1;
     for (let i = 0; i < expenses.length; i++) {
         let mid = i + 1;
