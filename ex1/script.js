@@ -15,6 +15,7 @@ for (let i = 0; i < expenses.length; i++) {
 function compareNumbers(a, b) {
     return a - b;
 }
+
 expenses.sort(compareNumbers);
 
 let f = find2020(expenses);
